@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d74712e-bebd-440e-84e0-206f678ffdd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UpdateBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeleteMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookingId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BookingIds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingIds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateBoooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateBoooking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,7 @@
     "JUnit.BookingIds.getBooking.executor": "Run",
     "JUnit.CreateBoooking.createBooking.executor": "Run",
     "JUnit.CreateBoooking.createBooking1.executor": "Debug",
+    "JUnit.DeleteMethod.deleteMethod.executor": "Run",
     "JUnit.UpdateBooking.executor": "Run",
     "JUnit.UpdateBooking.updateBooking.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,17 +55,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.UpdateBooking">
-    <configuration name="BookingId.getBookingid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingId" />
-      <option name="METHOD_NAME" value="getBookingid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeleteMethod.deleteMethod">
     <configuration name="BookingIds.getBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project3" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,6 +71,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CreateBoooking" />
       <option name="METHOD_NAME" value="createBooking1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteMethod.deleteMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeleteMethod" />
+      <option name="METHOD_NAME" value="deleteMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteMethod.deleteMethod" />
         <item itemvalue="JUnit.UpdateBooking" />
         <item itemvalue="JUnit.UpdateBooking.updateBooking" />
         <item itemvalue="JUnit.CreateBoooking.createBooking1" />
         <item itemvalue="JUnit.BookingIds.getBooking" />
-        <item itemvalue="JUnit.BookingId.getBookingid" />
       </list>
     </recent_temporary>
   </component>
