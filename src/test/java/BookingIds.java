@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class BookingIds {
+public class BookingIds extends BaseTests{
 
 
     @Test
@@ -18,9 +18,9 @@ public class BookingIds {
 //                .statusCode(200)
 //                .log().all();
 
-        Response response = given()
+        Response response = given(spec)
                 .when()
-                .get("https://restful-booker.herokuapp.com/booking/");
+                .get("/booking/");
         response
                 .then()
                 .statusCode(200);

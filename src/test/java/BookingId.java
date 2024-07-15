@@ -13,9 +13,9 @@ public class BookingId extends BaseTests{
 
     @Test
     public void getBookingid(){
-        Response response =given()
+        Response response =given(spec)
                 .when()
-                .get("https://restful-booker.herokuapp.com/booking/"+getID());
+                .get("/booking/"+getID());
         response
                 .then()
                 .statusCode(200);

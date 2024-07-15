@@ -10,13 +10,13 @@ public class CreateBoooking extends BaseTests{
 
     @Test
     public void createBooking1(){
-
+createBooking2();
         Response response=createBooking2();
 
-//        response
-//                .then()
-//                .statusCode(500);
-//        Assertions.assertEquals("ilkin",response.jsonPath().getJsonObject("booking.firstname"));
+        response
+                .then()
+                .statusCode(200);
+        Assertions.assertEquals("ilkin",response.jsonPath().getJsonObject("booking.firstname"));
 
     }
 
